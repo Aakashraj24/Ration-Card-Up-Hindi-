@@ -1,0 +1,397 @@
+@font-face {
+  font-family: r1;
+  src: url(/fonts/hindi.woff2);
+  font-family: r2;
+  src: url(/fonts/CupertinoIcons.ttf)
+}
+
+body {
+    font-size: 15pt;
+    background-color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+  width: 100%;
+  height: 40px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  box-shadow: 0 0 2px #000;
+  background-color: #232E3C;
+  display: flex;
+}
+.header .p{
+  margin: 0px auto;
+  padding: 5px 0px 6px 15px;
+  width: 140px;
+  height: 25px;
+  color: #fff;
+  border-radius: 3px;
+  margin-top: 5px;
+  box-shadow: 0 0 3px rgba(255, 255, 255, 0.6);
+  background-color: #645284;
+}
+.hi{
+  letter-spacing: 1px;
+}
+.had{  
+  letter-spacing: 1px;
+}
+.main{
+  width: 100%;
+  height: 100vh;
+}
+.adsf{
+  letter-spacing: 0.5px;
+  word-spacing: 2px;
+}
+.main .card{
+  margin-top: -20px;
+  margin-left: 3px;
+  width: 810px;
+  height: 300px;
+  display: flex;
+}
+.main .card .front{
+  margin: 30px auto;
+  width: 400px;
+  height: 255px;
+  background-color: #fff;
+  border: 0.2px solid #DCDCDC;
+  border-radius: 5px;
+/*  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6); */
+  font-family: 'r1';
+}
+.main .card .front .fhead{
+  width: 100%;
+  height: 50px;
+  border-radius: 4px 4px 0px 0px;
+  background-color: #8E7663;
+  display: flex;
+}
+.main .card .front .fmid{
+  width: 100%;
+  height: 180px;
+}
+
+.main .card .front .fmid .p1{
+  width: 100%;
+  height: 25px;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: r1;
+  color: #3E2D94;
+  letter-spacing: 1px;
+  text-align: center;
+}
+.main .card .front .fmid .p2{
+  width: 100%;
+  height: 20px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: r1;
+  letter-spacing: 0.3px;
+  text-align: center;
+}
+.main .card .front .fmid .p3{
+  width: 100%;
+  height: 90px;
+  display: flex;
+}
+.main .card .front .fmid .p3 .pbox{
+  width: 86px;
+  height: 100px;
+ /* border: 1px solid #000;*/
+}
+.main .card .front .fmid .p3 .pbox .photo{
+  margin-top: 3px;
+  margin-left: 10px;
+  width: 70px;
+  height: 75px;
+}
+.isdate{
+  font: 10px 'r1',sans-serif;
+  text-align: center;
+}
+.ist{
+  font-weight: 400;
+  font: 7px 'r1',sans-serif;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.isd{
+  font-weight: 500;
+  font: 7px 'r1',sans-serif;
+  text-align: center;
+}
+.cdbox{
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 13px;
+  font-family: r1;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+.main .card .front .fmid .p4{
+  width: 100%;
+  height: 40px;
+  font-family: r1;
+  display: flex;
+}
+
+.main .card .front .ffoot{
+  width: 100%;
+  height: 25px;
+  background-color: #8E7663;
+  display: flex;
+  border-radius: 0px 0px 4px 4px;
+}
+.main .card .back{
+  margin: 30px auto;
+  width: 400px;
+  height: 255px;
+  background-color: #fff;
+  border: 0.2px solid #DCDCDC;
+  border-radius: 5px;
+ /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.6); */
+}
+.spc{
+  margin-left: -20px;
+  width: 120px;
+  height: 40px;
+}
+.rcnb{
+  width: 190px;
+  height: 40px;
+}
+.rcnt{
+  font-size: 12px;
+  font-family: r1;
+  text-align: center;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+}
+.rcn{
+  font-size: 23px;
+  font-family: r1;
+  text-align: center;
+  font-weight: 600;
+  color: #3E2D94;
+  letter-spacing: -0.4px;
+}
+.signature-box{
+  width: 120px;
+  height: 60px;
+}
+.sign{
+  margin-top: -30px;
+  margin-left: 30px;
+  width: 45px;
+  height: 40px;
+}
+.sline{
+  margin-left: 10px;
+  width: 90px;
+  height: 1px;
+  margin-top: 2px;
+  background-color: #000;
+}
+.stitle{
+  margin-top: 3px;
+  margin-left: -10px;
+  font-size: 13px;
+  font-family: r1;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.main .card .front .fhead .flogo{
+  width: 50px;
+  height: 50px;
+  
+}
+.flimg{
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 40px;
+  height: 40px;
+}
+.main .card .front .fhead .gtxt{
+  width: 70%;
+  height: 40px;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+.mt{
+  font-family: 'r1';
+  margin: -1px auto;
+  font-weight: 600;
+}
+.llimg{
+  margin-top: 6px;
+  margin-left: 23px;
+  width: 40px;
+  height: 40px;
+  
+}
+.ficon{
+  width: 50%;
+  height: 25px;
+  display: flex;
+}
+.fib{
+  margin-top: 7px;
+  margin-left: 10px;
+  width: 10px;
+  height: 10px;
+  padding: 0.4px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.fimg{
+  width: 8px;
+  height: 8px;
+  padding-bottom: 9.8px;
+  padding-left: 1.1px;
+}
+.cn{
+  color: #fff;
+  font-size: 10px;
+  margin-left: 5px;
+  margin-top: 8px;
+}
+.ssite{
+  width: 50%;
+  height: 25px;
+  display: flex;
+}
+.emb{
+  margin-top: 7px;
+  margin-left: 80px;
+  width: 10px;
+  height: 10px;
+  padding-left: 1.5px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.eimg{
+  width: 9px;
+  height: 9px;
+  padding-bottom: 9.55px;
+  padding-right: 2.3px;
+}
+.sg{
+  margin-left: 5px;
+  color: #fff;
+  font-size: 10px;
+  margin-top: 7px;
+}
+.bhead{
+  width: 100%;
+  height: 50px;
+  border-radius: 4px 4px 0px 0px;
+  background-color: #8E7663;
+  display: flex;
+}
+.gtxt2{
+  width: 70%;
+  height: 40px;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5px;
+}
+.mt2{
+  font-family: 'r1';
+  margin: -1px auto;
+  font-weight: 600;
+}
+.bmid{
+  width: 100%;
+  height: 180px;
+}
+.bfoot{
+  width: 100%;
+  height: 25px;
+  background-color: #8E7663;
+  display: flex;
+  border-radius: 0px 0px 4px 4px;
+}
+.sm2{
+  width: 50%;
+  height: 25px;
+  display: flex;
+}
+.smb2{
+  margin-top: 6px;
+  margin-left: 15px;
+  width: 13px;
+  height: 13px;
+  padding-left: 1px;
+  padding-right: 1.5px;
+  border-radius: 1px;
+  background-color: #fff;
+}
+.sm2im{
+  width: 13px;
+  height: 13px;
+  color: #fff;
+  padding-bottom: 9.55px;
+  padding-right: 2.3px;
+}
+.sg2{
+  margin-left: 5px;
+  color: #fff;
+  font-size: 11px;
+  margin-top: 5px;
+}
+table{
+  width: 90%;
+  height: 160px;
+  margin-top: 2.5%;
+  margin-left: 5%;
+  font-size: 12px;
+  font-family: 'r1';
+  border-collapse: collapse;
+  border: 1px solid #E0E0E0;
+}
+table tr{
+  border: 1px solid #E0E0E0;
+  letter-spacing: 1px;
+}
+table tr th{
+  border: 1px solid #E0E0E0;
+}
+table tr td{
+  border: 1px solid #E0E0E0;
+}
+.cw{
+  text-align: center;
+}
+.nm{
+  padding-left: 10px;
+}
+.table{
+  width: 100%;
+  height: 180px;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.webb{
+  width: 50%;
+}
+.webicon{
+  margin-top: 5px;
+  margin-left: 170px;
+  width: 15px;
+  height: 15px;
+  padding: 0.5px;
+  border-radius: 2px;
+  background-color: #fff;
+}
+.wiimg{
+  width: 12px;
+  height: 12px;
+  padding-left: 1.5px;
+  padding-bottom: 6px;
+}
