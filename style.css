@@ -253,14 +253,14 @@ body {
 .fimg{
   width: 8px;
   height: 8px;
-  padding-bottom: 9.8px;
+  padding-bottom: 9.5px;
   padding-left: 1.1px;
 }
 .cn{
   color: #fff;
   font-size: 10px;
   margin-left: 5px;
-  margin-top: 8px;
+  margin-top: 7px;
 }
 .ssite{
   width: 50%;
@@ -279,14 +279,14 @@ body {
 .eimg{
   width: 9px;
   height: 9px;
-  padding-bottom: 9.55px;
+  padding-bottom: 9px;
   padding-right: 2.3px;
 }
 .sg{
   margin-left: 5px;
   color: #fff;
   font-size: 10px;
-  margin-top: 7px;
+  margin-top: 5px;
 }
 .bhead{
   width: 100%;
@@ -393,5 +393,5 @@ table tr td{
   width: 12px;
   height: 12px;
   padding-left: 1.5px;
-  padding-bottom: 6px;
+  padding-bottom: 5px;
 }
