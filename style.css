@@ -1,3 +1,8 @@
+@page {
+  size: A4;
+  margin: 0;
+}
+
 @font-face {
   font-family: r1;
   src: url(/fonts/hindi.woff2);
@@ -58,7 +63,7 @@ body {
   width: 400px;
   height: 255px;
   background-color: #fff;
-  border: 0.2px solid #DCDCDC;
+  border: 0.2px solid #8E7663;
   border-radius: 5px;
 /*  box-shadow: 0 0 3px rgba(0, 0, 0, 0.6); */
   font-family: 'r1';
@@ -152,7 +157,7 @@ body {
   width: 400px;
   height: 255px;
   background-color: #fff;
-  border: 0.2px solid #DCDCDC;
+  border: 0.2px solid #8E7663;
   border-radius: 5px;
  /* box-shadow: 0 0 3px rgba(0, 0, 0, 0.6); */
 }
@@ -211,7 +216,7 @@ body {
   height: 50px;
   
 }
-.flimg{
+.flimg,.fl2img{
   margin-top: 5px;
   margin-left: 5px;
   width: 40px;
@@ -229,7 +234,7 @@ body {
   margin: -1px auto;
   font-weight: 600;
 }
-.llimg{
+.llimg,.ll2img{
   margin-top: 6px;
   margin-left: 23px;
   width: 40px;
@@ -241,20 +246,25 @@ body {
   height: 25px;
   display: flex;
 }
-.fib{
-  margin-top: 7px;
+/* call icon */
+.fib {
+  margin-top: 5px;
   margin-left: 10px;
   width: 10px;
   height: 10px;
-  padding: 0.4px;
+  padding: 2px;
   border-radius: 2px;
   background-color: #fff;
+  position: relative;
 }
-.fimg{
-  width: 8px;
-  height: 8px;
-  padding-bottom: 9.5px;
-  padding-left: 1.1px;
+
+.fimg {
+  width: 80%;
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .cn{
   color: #fff;
@@ -268,25 +278,28 @@ body {
   display: flex;
 }
 .emb{
-  margin-top: 7px;
+  margin-top: 5px;
   margin-left: 80px;
   width: 10px;
   height: 10px;
-  padding-left: 1.5px;
+  padding: 2px 3px;
   border-radius: 2px;
   background-color: #fff;
+  position: relative;
 }
 .eimg{
-  width: 9px;
-  height: 9px;
-  padding-bottom: 9px;
-  padding-right: 2.3px;
+  width: 88%;
+  height: 88%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 .sg{
   margin-left: 5px;
   color: #fff;
   font-size: 10px;
-  margin-top: 5px;
+  margin-top: 6px;
 }
 .bhead{
   width: 100%;
@@ -388,10 +401,11 @@ table tr td{
   padding: 0.5px;
   border-radius: 2px;
   background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .wiimg{
   width: 12px;
   height: 12px;
-  padding-left: 1.5px;
-  padding-bottom: 5px;
 }
